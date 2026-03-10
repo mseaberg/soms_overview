@@ -9,7 +9,7 @@ with open("requirements.txt", "rt") as fp:
     ]
 
 setup(
-    name="homs_overview",
+    name="soms_overview",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     license="BSD",
@@ -20,7 +20,7 @@ setup(
     install_requires=install_requires,
     entry_points={
         'gui_scripts': [
-            'homs_overview=homs_overview.__main__:main'
+            'soms_overview=soms_overview.__main__:main'
         ]
     },
 )
